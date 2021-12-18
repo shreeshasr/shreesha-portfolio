@@ -1,0 +1,24 @@
+.testimonialImage{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    object-fit: contain;
+}
+.testimonial{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    width: 50rem;
+}
+
+.reviewer, .testimonialReview{
+    padding: 1rem 0 0 0 ;
+    line-height: 2.2rem;
+}
+
+.testimonialReviewer, .testimonialReviewerDesignation{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: darkgrey;
+}

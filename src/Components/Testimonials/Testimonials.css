@@ -1,0 +1,24 @@
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,114,9,1) 35%, rgba(0,212,255,1) 100%);
+    width: 70rem;
+    height: 17rem;
+    border-radius: 2rem;
+    margin: auto;
+}
+.testimonials button{
+    margin: 0 4rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 4rem;
+    outline: none;
+}
+.testimonials button:hover{
+    cursor: pointer;
+    color: greenyellow;
+    transform: scale(2)
+}

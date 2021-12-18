@@ -1,0 +1,45 @@
+.reachout img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    text-align: center;
+    border: 0.3rem solid white;
+}
+.reachout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 0 0;
+    padding: 5rem 0;
+    font-size: 1.5rem;
+    background: lightslategrey;
+}
+.reachoutLeft{
+    text-align: center;
+    line-height: 3rem;
+    padding-right: 5rem;
+    width: 30rem;
+}
+.reachoutService{
+    font-size: 1rem;
+}
+.reachoutHeading{
+    font-size: 2rem;
+}
+
+.reachoutLocation{
+    display: block;
+    margin: 2rem auto;
+    background: blue;
+    border: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    color: white;
+    width: 15rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.reachoutLocation:hover{
+    cursor: pointer;
+}

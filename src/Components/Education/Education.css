@@ -1,0 +1,6 @@
+.education{
+    font-size: 1.3rem;
+}
+.education > div{
+    line-height: 3rem;
+}

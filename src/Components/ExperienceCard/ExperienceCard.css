@@ -1,0 +1,40 @@
+.companyLogo{
+    width: 10rem;
+    object-fit: contain;
+    margin: 2rem 0;
+}
+.experienceCard{
+    margin: auto;
+    box-shadow:  0px 2px 5px 3px;
+    width: 20rem;
+    height: 23rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.experienceCard:hover{
+    animation-name: scale;
+    animation-duration: 1000ms;
+    cursor: pointer;
+}
+
+@keyframes scale{
+    from {transform: scale(1)}
+    to {transform: scale(1.02)}
+}
+.company{
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-top-left-radius : 0.5rem;
+    border-top-right-radius : 0.5rem;
+}
+.designation{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.details{
+    padding: 1rem;
+}
