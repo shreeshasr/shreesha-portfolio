@@ -5,6 +5,8 @@ import javascript from "../../images/javascript.png"
 import react from "../../images/react.png"
 import redux from "../../images/redux.png"
 import selenium from "../../images/selenium.png"
+import sass from "../../images/sass.png"
+import bootstrap from "../../images/bootstrap.png"
 import Skill from '../Skill/Skill'
 import './Skills.css'
 import SectionHeader from '../SectionHeader/SectionHeader'
@@ -22,23 +24,33 @@ function Skills() {
         },
         {
             image: javascript,
-            title: "JAVASCRIPT",
+            title: "Javascript",
             percentage: "80"
         },
         {
             image: react,
-            title: "REACT",
+            title: "React",
             percentage: "85"
         },
         {
             image: redux,
-            title: "REDUX",
+            title: "Redux",
             percentage: "75"
         },
         {
             image: selenium,
-            title: "SELENIUM",
+            title: "Selenium",
             percentage: "90"
+        },
+        {
+            image: sass,
+            title: "SASS",
+            percentage: "70"
+        },
+        {
+            image: bootstrap,
+            title: "Bootstrap",
+            percentage: "70"
         },
 
     ]

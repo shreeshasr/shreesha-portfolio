@@ -22,3 +22,29 @@
     color: greenyellow;
     transform: scale(2)
 }
+
+@media screen and (max-width: 600px) {
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,114,9,1) 35%, rgba(0,212,255,1) 100%);
+        width: 20rem;
+        height: 38rem;
+        overflow: hidden;
+        border-radius: 2rem;
+        margin: auto;
+    }
+    .testimonials button{
+        margin: 1rem 0;
+       transform: rotate(90deg);
+    }
+
+    .testimonials button:hover{
+        cursor: pointer;
+        color: greenyellow;
+        transform: scale(2) rotate(90deg);
+    }
+}

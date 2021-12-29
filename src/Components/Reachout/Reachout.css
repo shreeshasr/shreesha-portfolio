@@ -12,7 +12,10 @@
     margin: 5rem 0 0 0;
     padding: 5rem 0;
     font-size: 1.5rem;
-    background: lightslategrey;
+    color: white;
+    animation-name: second;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
 }
 .reachoutLeft{
     text-align: center;
@@ -20,26 +23,101 @@
     padding-right: 5rem;
     width: 30rem;
 }
-.reachoutService{
+.reachoutService, .reachoutDetails{
     font-size: 1rem;
 }
+.reachoutService{
+    color: black;
+}
 .reachoutHeading{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .reachoutLocation{
     display: block;
     margin: 2rem auto;
-    background: blue;
-    border: none;
+    background: aquamarine;
+    border: 0.1rem solid white;
     font-size: 1rem;
     border-radius: 2rem;
     font-weight: 700;
-    color: white;
+    color: black;
     width: 15rem;
     text-transform: capitalize;
     text-decoration: none;
+    outline: none;
 }
 .reachoutLocation:hover{
     cursor: pointer;
+    animation-name: dooranime;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+}
+.reachout img:hover{
+    transform: scale(1.1);
+    border: 0.3rem solid #00A170;
+}
+
+@keyframes dooranime{
+    from {box-shadow: 0}
+    to {box-shadow: inset -10.5em 0 0 0 pink, inset 10.5em 0 0 0 pink;}
+}
+@keyframes second{
+    0% {background: #0072B5;}
+    25% {background: #D2386C;}
+    50% {background: #926AA6;}
+    75% {background: #D2386C;}
+    100% {background: #E9897E;}
+}
+
+.goTopIcon{
+    position: fixed;
+    right: 5rem;
+    bottom: 3rem;
+    background: black;
+    padding: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.goTopIcon a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .reachout img{
+        visibility: hidden;
+        width: 0rem;
+        height: 0rem;
+    }
+
+    .reachout{
+        flex-direction: column;
+        margin: 1rem 0 0 0;
+        padding: 1rem 0;
+    }
+
+    .reachoutLeft{
+        text-align: center;
+        line-height: 2rem;
+        padding-right: 0rem;
+        width: 20rem;
+        margin: auto;
+    }
+
+    .goTopIcon{
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 9999;
+    }
+
+    .reachoutLocation{
+        margin:1rem auto;
+    }
 }

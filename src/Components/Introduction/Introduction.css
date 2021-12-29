@@ -58,3 +58,64 @@
     display: flex;
     margin-top: 4rem;
 }
+
+@media screen and (max-width: 600px) {
+
+    .introduction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .introduction img{
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+        border: 0.3rem solid white;
+    }
+    .introductionButtons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        justify-content: center;
+    }
+    .introduction-info{
+        width: 20rem;
+    }
+
+    .introduction-info strong{
+        font-size: 1.5rem;
+        display: block;
+        margin-bottom: 0.8rem;;
+    }
+    .introduction-info p{
+        font-size: 1.5rem;
+    }
+    .Typewriter{
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+        height: 3rem;
+    }
+    .introduction-name{
+        font-size: 1.5rem;
+    }
+
+    .introduction-resume, .introduction-mail, .copyMyPhoneNumber{
+        margin: 1rem;
+        margin-right: 0rem;
+        font-size: 0.8rem;
+        width: 8rem;
+        text-transform: capitalize;
+        padding: 0.6rem;
+        height: 3rem;
+    }
+}

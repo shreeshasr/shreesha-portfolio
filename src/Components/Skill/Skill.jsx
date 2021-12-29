@@ -6,6 +6,7 @@ function Skill({skill}) {
             <div className="flip-card-inner">
             <div className="flip-card-front">
                 <img className="skillImage" src={skill.image} alt="skill"></img>
+                <div className="skillName">{skill.title}</div>
             </div>
             <div className="flip-card-back">
             <div className="skillTitle">{skill.title}</div>

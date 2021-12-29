@@ -26,8 +26,44 @@
     transform: scaleX(1);
 }
 
-.navbar{
+.links{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly
+}
+
+.navlinksMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+}
+
+.navlinkMobile{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0.3rem;
+}
+.btn{
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.linksMobile{
+    border-radius: 0.5rem;
+    position: fixed;
+    right: 0.5rem;
+    top: 2.7rem;
+    text-align: left;
+    background: black;
+    width: 11.5rem;
+    height: 13.5rem;
+    z-index: 9999;
 }

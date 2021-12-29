@@ -2,31 +2,81 @@
     display: flex;
     flex-direction: column;
     width: 21rem;
-    height: 30rem;
+    height: 33rem;
     margin: 2rem;
-    background: cornflowerblue;
+    background: #34568b;
     border-radius: 1rem;
+    border: 0.1rem solid white;
 }
 .projectTexts{
-    padding: 0 2rem;
     text-align: left;
+    padding: 1rem;
 }
 .projectName{
-    padding: 2rem 0;
     font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.tag{
+    padding: 0.2rem 0.8rem;
+    margin: 0.3rem 0.3rem;
+    background: #C3447A;
+    border-radius: 1rem;
 }
 .projectTags{
-    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: small;
+    margin: 2rem 0;
+    height: 4rem;
 }
 .projectImage{
-    border-top-left-radius : 1rem;
-    border-top-right-radius : 1rem;
+    border-top-left-radius : 0.8rem;
+    border-top-right-radius : 0.8rem;
+    padding: 0;
+    margin: 0;
+    background: white;
 }
 .projectDetails{
-    height: 5rem;
+    height: 7rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding: 2rem 0 0 0;
+    line-height: 1.5rem;
 }
 .project:hover{
+    background: #EFC050;
+    color: black;
+}
+.Links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: black;
+}
+
+.fa-link, .fa-github-square{
+    width: 1rem;
+    height: 1rem;
+    color: black;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .project{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        height: 33rem;
+        margin: 2rem 0;
+        background: #34568b;
+        border-radius: 1rem;
+        border: 0.1rem solid white;
+    }
 }

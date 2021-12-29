@@ -1,5 +1,6 @@
 .education{
     font-size: 1.3rem;
+    padding: 0 0.2rem;
 }
 .education > div{
     line-height: 3rem;
