@@ -74,7 +74,7 @@ function Projects() {
                 image: shreeshaPortfolio,
                 tags: ["HTML", "CSS", "React", "Media queries", "Responsive"],
                 description: "This is a portfolio web app built to showcase my resume, experience, skills, work experience, contact info etc",
-                liveWebsite: ""
+                liveWebsite: "https://shreeshasr.netlify.app/"
             },
         ]
     return (
