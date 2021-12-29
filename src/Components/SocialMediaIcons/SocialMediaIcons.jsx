@@ -44,7 +44,7 @@ function SocialMediaIcons() {
              <div className="social-media-icons">
                 {
                     socialMedia.map( (profile) => {
-                       return <a href={profile.link} target="_blank" rel="noreferrer"><i title={profile.name} class={"fa "+profile.iconClassName} style={{background: profile.hoverColor}} aria-hidden="true"/></a>
+                       return <a href={profile.link} aria-label={profile.name} target="_blank" rel="noreferrer"><i title={profile.name} className={"fa "+profile.iconClassName} style={{background: profile.hoverColor}} aria-hidden="true"/></a>
                     })
                 }
             </div>

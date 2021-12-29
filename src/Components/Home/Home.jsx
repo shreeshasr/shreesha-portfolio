@@ -7,7 +7,6 @@ import Reachout from '../Reachout/Reachout'
 import Skills from '../Skills/Skills'
 import Testimonials from '../Testimonials/Testimonials'
 import './Home.css'
-import countapi from 'countapi-js';
 import Education from '../Education/Education'
 function Home() {
     
@@ -25,11 +24,6 @@ function Home() {
             <Skills/>
             <Testimonials/>
             <Reachout/>
-            {/* {
-                countapi.visits().then((result) => {
-                    console.log(result.value);
-                })
-            } */}
         </div>
     )
 }
