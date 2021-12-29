@@ -16,7 +16,7 @@ function Projects() {
                 name: "Book a bus",
                 githubLink: "https://github.com/shreeshasr/book-a-bus",
                 image: bus,
-                tags: ["HTML", "CSS", "SASS", "React", "Redux", "Media queries"],
+                tags: ["HTML", "CSS", "SASS", "React", "Redux", "Media queries", "Responsive"],
                 description: "This is a bus booking application for travellers. User can book bus from a city to another city across India",
                 liveWebsite: "https://book-bus.herokuapp.com/"
             },
@@ -32,7 +32,7 @@ function Projects() {
                 name: "Groww Clone",
                 githubLink: "https://github.com/shreeshasr/groww-clone",
                 image: groww,
-                tags: ["HTML", "CSS", "React"],
+                tags: ["HTML", "CSS", "React", "Media queries", "Responsive"],
                 description: "This is a clone of official GROWW website front page, which is an online investment platform that allows investors to invest in mutual funds and stocks. Note: Implemented it for learning purpose.",
                 liveWebsite: "https://61cc47a98b3f278d6b0aaf07--admiring-ptolemy-601869.netlify.app/"
             },
@@ -48,7 +48,7 @@ function Projects() {
                 name: "Recipe App",
                 githubLink: "https://github.com/shreeshasr/recipe-app",
                 image: recipe,
-                tags: ["HTML", "CSS", "React", "Redux", "Axios"],
+                tags: ["HTML", "CSS", "React", "Redux", "Axios", "APIs"],
                 description: "This is an app with various recipes with filters option. User can add or remove his favourite recipe. Dark mode and light mode are also available",
                 liveWebsite: ""
             },
@@ -56,7 +56,7 @@ function Projects() {
                 name: "Quotes for me",
                 githubLink: "https://github.com/shreeshasr/quotesforme",
                 image: quotes,
-                tags: ["HTML", "CSS", "React", "Redux", "Axios", "APIS"],
+                tags: ["HTML", "CSS", "React", "Redux", "Axios", "APIs"],
                 description: "This is a random quotes generator app with the feature to change quote and color. It uses the publically available APIs.",
                 liveWebsite: ""
             },
@@ -64,7 +64,7 @@ function Projects() {
                 name: "Password generator",
                 githubLink: "https://github.com/shreeshasr/password-generator",
                 image: password,
-                tags: ["HTML", "CSS", "React", "Redux", "Axios", "APIS"],
+                tags: ["HTML", "CSS", "React", "Redux", "Axios", "APIs"],
                 description: "This is a random password generator app with various filters, password strength measurer",
                 liveWebsite: ""
             },
@@ -72,7 +72,7 @@ function Projects() {
                 name: "Portfolio",
                 githubLink: "",
                 image: shreeshaPortfolio,
-                tags: ["HTML", "CSS", "React"],
+                tags: ["HTML", "CSS", "React", "Media queries", "Responsive"],
                 description: "This is a portfolio web app built to showcase my resume, experience, skills, work experience, contact info etc",
                 liveWebsite: ""
             },
