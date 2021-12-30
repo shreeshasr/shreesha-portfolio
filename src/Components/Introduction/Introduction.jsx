@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import shreesha from "../../images/shreesha.jpg"
+import resume from "../../images/ShreeshaResume.pdf"
 import "./Introduction.css"
 import Typewriter from 'typewriter-effect';
 
@@ -28,7 +29,7 @@ function Introduction() {
                     }}
                 />
                 <div className="introductionButtons">
-                    <a href={shreesha} download><button className="introduction-resume">Resume <i className="fa fa-download" aria-hidden="true"></i></button></a>
+                    <a href={resume} download><button className="introduction-resume">Resume <i className="fa fa-download" aria-hidden="true"></i></button></a>
                     <a href="mailto:shreesha.sr92@gmail.com"><button className="introduction-mail">Mail <i className="fa fa-envelope" aria-hidden="true"></i></button></a>
                     <button className="copyMyPhoneNumber" onClick={ () => copyMyPhoneNumber()}>{setTheCopyButtonText()} <i className="fa fa-copy" aria-hidden="true"></i></button>
                 </div>

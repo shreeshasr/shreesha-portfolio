@@ -6,6 +6,10 @@
     margin-right: 5rem;
     margin-left: 10rem;
     border: 0.3rem solid white;
+    animation-name: bounce1;
+    animation-duration: 6000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .introduction{
     display: flex;
@@ -59,6 +63,17 @@
     margin-top: 4rem;
 }
 
+@keyframes bounce1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+
+.introduction img:hover{
+    animation: none;
+}
+
+
 @media screen and (max-width: 600px) {
 
     .introduction{
@@ -79,7 +94,6 @@
         margin-right: 0rem;
         margin-left: 0rem;
         margin-bottom: 2rem;
-        border: 0.3rem solid white;
     }
     .introductionButtons{
         display: flex;
