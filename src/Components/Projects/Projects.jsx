@@ -34,7 +34,7 @@ function Projects() {
                 image: groww,
                 tags: ["HTML", "CSS", "React", "Media queries", "Responsive"],
                 description: "This is a clone of official GROWW website front page, which is an online investment platform that allows investors to invest in mutual funds and stocks. Note: Implemented it for learning purpose.",
-                liveWebsite: "https://61cc47a98b3f278d6b0aaf07--admiring-ptolemy-601869.netlify.app/"
+                liveWebsite: "https://growwclone.netlify.app/"
             },
             {
                 name: "Sophos ZTNA Clone",
