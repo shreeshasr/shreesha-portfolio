@@ -32,12 +32,12 @@ function SocialMediaIcons() {
             iconClassName: "fa-facebook",
             hoverColor: "#4267B2"
         },
-        { 
-            name: "twitter",
-            link : "https://twitter.com/tweet_shreesha",
-            iconClassName: "fa-twitter",
-            hoverColor: "#1DA1F2"
-        }
+        // { 
+        //     name: "twitter",
+        //     link : "https://twitter.com/tweet_shreesha",
+        //     iconClassName: "fa-twitter",
+        //     hoverColor: "#1DA1F2"
+        // }
     ]
 
     return (
