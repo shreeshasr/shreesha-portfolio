@@ -64,7 +64,7 @@ function Projects() {
                 name: "Password generator",
                 githubLink: "https://github.com/shreeshasr/password-generator",
                 image: password,
-                tags: ["HTML", "CSS", "React", "Redux", "Axios", "APIs"],
+                tags: ["HTML", "CSS", "React"],
                 description: "This is a random password generator app with various filters, password strength measurer",
                 liveWebsite: ""
             },

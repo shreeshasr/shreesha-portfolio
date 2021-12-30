@@ -43,3 +43,24 @@
         height: 13rem;
     }
 }
+
+@media screen and (min-width:640px) and (max-width: 1024px) {
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        align-items: center;
+        width: 20rem;
+        height: 45rem;
+    }
+    .testimonialImage{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        margin-right: 0rem;
+        object-fit: contain;
+    }
+    .testimonialReview{
+        height: 16rem;
+    }
+}
