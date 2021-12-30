@@ -50,10 +50,12 @@
     margin: 0.3rem;
 }
 .btn{
-    position: fixed;
+    position: absolute;
     top: 0.5rem;
     right: 0.5rem;
     font-size: 1.5rem;
+    border: none;
+    border-radius: 0.2rem;
 }
 
 .linksMobile{

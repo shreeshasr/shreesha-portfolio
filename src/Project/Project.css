@@ -68,11 +68,11 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 645px) {
     .project{
         display: flex;
         flex-direction: column;
-        width: 20rem;
+        width: 18rem;
         height: 33rem;
         margin: 2rem 0;
         background: #34568b;

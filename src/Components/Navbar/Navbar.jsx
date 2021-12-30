@@ -28,7 +28,7 @@ function Navbar() {
         },
     ]
 
-    let isPageNotWide = useMediaQuery('(max-width: 600px)')
+    let isPageNotWide = useMediaQuery('(max-width: 645px)')
     console.log("isPageNotWide "  +isPageNotWide)
     
     return (
