@@ -11,7 +11,7 @@ function Skill({skill}) {
             <div className="flip-card-back">
             <div className="skillTitle">{skill.title}</div>
             <progress className="skillPercentageBar" value={skill.percentage} max="100"> {skill.percentage} </progress>
-            <label className="skillPercentageText" for="percentage">{skill.percentage}%</label>
+            <label className="skillPercentageText">{skill.percentage}%</label>
             </div>
             </div>
       </div>

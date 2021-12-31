@@ -29,7 +29,6 @@ function Navbar() {
     ]
 
     let isPageNotWide = useMediaQuery('(max-width: 645px)')
-    console.log("isPageNotWide "  +isPageNotWide)
     
     return (
         <section className={isPageNotWide ? "navbarMobile" : "navbar"}>

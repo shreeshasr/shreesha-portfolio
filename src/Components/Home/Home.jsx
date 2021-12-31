@@ -8,6 +8,7 @@ import Skills from '../Skills/Skills'
 import Testimonials from '../Testimonials/Testimonials'
 import './Home.css'
 import Education from '../Education/Education'
+import Certificates from '../Cerificates/Certificates'
 function Home() {
     
     return (
@@ -22,6 +23,7 @@ function Home() {
             </div>
             <Projects/>
             <Skills/>
+            <Certificates/>
             <Testimonials/>
             <Reachout/>
         </div>

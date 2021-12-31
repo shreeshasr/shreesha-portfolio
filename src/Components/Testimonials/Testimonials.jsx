@@ -44,7 +44,7 @@ function Testimonials() {
         }
     }
     return (
-        <section className="testimonialss">
+        <section className="testimonialSection">
              <SectionHeader id={"testimonials"} heading={"Testimonials"}/>
              <div className="testimonials">
                 <button className="buttonPreviousButton" onClick={ () => decrementIndex()}><i class="fa fa-angle-left" aria-hidden="true"></i></button>

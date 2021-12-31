@@ -7,6 +7,7 @@ import redux from "../../images/redux.png"
 import selenium from "../../images/selenium.png"
 import sass from "../../images/sass.png"
 import bootstrap from "../../images/bootstrap.png"
+import jest from "../../images/jest.png"
 import Skill from '../Skill/Skill'
 import './Skills.css'
 import SectionHeader from '../SectionHeader/SectionHeader'
@@ -37,11 +38,7 @@ function Skills() {
             title: "Redux",
             percentage: "75"
         },
-        {
-            image: selenium,
-            title: "Selenium",
-            percentage: "90"
-        },
+        
         {
             image: sass,
             title: "SASS",
@@ -51,6 +48,16 @@ function Skills() {
             image: bootstrap,
             title: "Bootstrap",
             percentage: "70"
+        },
+        {
+            image: jest,
+            title: "Jest",
+            percentage: "70"
+        },
+        {
+            image: selenium,
+            title: "Selenium",
+            percentage: "90"
         },
 
     ]
