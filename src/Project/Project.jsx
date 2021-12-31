@@ -16,7 +16,7 @@ function Project({project}) {
                 </div>
                 <div className="Links">
                     <a target="_blank" rel="noopener noreferrer" href={project.githubLink} ><div className="projectGithub">Github : <i className="fa fa-github-square"></i></div></a>
-                    {project.liveWebsite !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.liveWebsite}><div className="projectLink">Live  <i class="fa fa-link"></i></div></a>  :""}
+                    {project.liveWebsite !== "" ? <a target="_blank" rel="noopener noreferrer" href={project.liveWebsite}><div className="projectLink">Live : <i class="fa fa-link"></i></div></a>  :""}
                 </div>
             </div>
         </div>
