@@ -1,6 +1,6 @@
 .reachout img{
-    width: 15rem;
-    height: 15rem;
+    width: 17rem;
+    height: 17rem;
     border-radius: 50%;
     text-align: center;
     border: 0.3rem solid white;
@@ -23,13 +23,15 @@
     padding-right: 5rem;
     width: 30rem;
 }
-.reachoutService, .reachoutDetails{
+.reachoutService{
     font-size: 1rem;
+    font-weight: 700;
+    color: midnightblue;
 }
 .reachoutService{
     color: black;
 }
-.reachoutHeading{
+.reachoutHeading, .reachoutDetails{
     font-size: 1.5rem;
 }
 
@@ -56,6 +58,31 @@
 .reachout img:hover{
     transform: scale(1.1);
     border: 0.3rem solid #00A170;
+}
+.contactForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+.contactForm input::placeholder, .contactForm textarea::placeholder{
+    font-size: 1.2rem;
+}
+.contactForm input, .contactForm textarea, .contactForm button{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    z-index: 9999;
+}
+.formContactMedium::placeholder{
+    font-size: 0.9em !important;
+}
+.contactForm button{
+    cursor: pointer;
+    background: mediumspringgreen;
 }
 
 @keyframes dooranime{
@@ -119,5 +146,13 @@
 
     .reachoutLocation{
         margin:1rem auto;
+    }
+
+    .reachoutHeading, .reachoutDetails{
+        font-size: 1.3rem;
+    }
+
+    .contactForm{
+        margin: 1rem 0;
     }
 }

@@ -33,7 +33,7 @@ function Projects() {
                 githubLink: "https://github.com/shreeshasr/groww-clone",
                 image: groww,
                 tags: ["HTML", "CSS", "React", "Media queries", "Responsive"],
-                description: "This is a clone of official GROWW website front page, which is an online investment platform that allows investors to invest in mutual funds and stocks. Note: Implemented it for learning purpose.",
+                description: "This is a clone of official GROWW website front page, which is an online investment platform that allows investors to invest in mutual funds and stocks. Note: Implemented it for my skill strengthening purpose only.",
                 liveWebsite: "https://growwclone.netlify.app/"
             },
             {
@@ -41,7 +41,7 @@ function Projects() {
                 githubLink: "https://github.com/shreeshasr/ztna-clone-learning",
                 image: ztna,
                 tags: ["HTML", "CSS", "React"],
-                description: "This is a clone of Sophos ZTNA. This has most of the pure front end functionalities of SOPHOS central ZTNA product. Note: Implemented it for learning purpose.",
+                description: "This is a clone of Sophos ZTNA. This has most of the pure front end functionalities of SOPHOS central ZTNA product. Note: Implemented it for my skill strengthening purpose only.",
                 liveWebsite: ""
             },
             {
