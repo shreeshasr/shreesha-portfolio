@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import reactcert from '../../images/reactcert.png'
 import javascriptcert from '../../images/javascriptcert.png'
 import w3docscert from '../../images/w3docs.png'
+import shapecert from '../../images/shapecert.png'
+import htmlhints from '../../images/htmlhints.png'
 import "./Certificates.css"
 import SectionHeader from '../SectionHeader/SectionHeader'
 function Certificates() {
@@ -9,15 +11,23 @@ function Certificates() {
     const certificates = [
         {
             image: reactcert,
-            title: "React",
+            provider: "Hackerrank"
+        },
+        {
+            image: shapecert,
+            provider: "Shape AI",
+        },
+        {
+            image: htmlhints,
+            provider: "HTML Hints",
         },
         {
             image: javascriptcert,
-            title: "Javascript",
+            provider: "Hackerrank",
         },
         {
             image: w3docscert,
-            title: "React",
+            provider: "W3docs",
         },
 
     ]
@@ -49,9 +59,10 @@ function Certificates() {
             <SectionHeader id={"certificates"} heading={"Certificates"}/>
             <div className='certificates'>
                 <button className="buttonPreviousButton" onClick={ () => decrementIndex()}><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-                <img className='certImage' alt={certificates[currentIndex].title} src={certificates[currentIndex].image}></img>
+                <img className='certImage' alt={certificates[currentIndex].provider} src={certificates[currentIndex].image}></img>
                 <button className="buttonNextButton" onClick={ () => incrementIndex()}><i class="fa fa-angle-right" aria-hidden="true"></i></button>
             </div>
+            <div className="certProvider">{certificates[currentIndex].provider}</div>
         </div>
     )
 }
