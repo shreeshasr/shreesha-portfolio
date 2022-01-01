@@ -16,11 +16,20 @@ function Reachout() {
                 <img src={shreesha} alt="shreesha" title="shreesha"/>
             </div>
             <div className="goTopIcon">
-               <a href="#introduction" title="Go to top"><i className="fa fa-arrow-up"></i></a>
+               <div onClick={ () => scrollTo("introduction")} title="Go to top"><i className="fa fa-arrow-up"></i></div>
             </div>
             
         </section>
     )
+}
+
+const scrollTo = (elementId) => {
+    const element = document.getElementById(elementId);
+    if(element){
+        element.scrollIntoView({
+            behavior: "smooth",
+        })
+    }
 }
 
 export default Reachout

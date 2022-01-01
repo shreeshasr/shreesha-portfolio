@@ -39,7 +39,7 @@ function Navbar() {
                     <div className={ (isPageNotWide && isOpen) ?"navlinksMobile" : "navlinks"}>
                     {
                         links.map( (link) => {
-                            return <a className={(isPageNotWide && isOpen) ?"navlinkMobile" : "navlink"} onClick={() => setIsOpen(!isOpen)} href={"#"+ link.linkId}>{link.text}</a>
+                            return <div className={(isPageNotWide && isOpen) ?"navlinkMobile" : "navlink"} onClick={() => {setIsOpen(!isOpen); scrollTo(link.linkId)}}>{link.text}</div>
                         })
                     }
                     </div>
@@ -68,6 +68,15 @@ export function useMediaQuery(query) {
   }, [matches, query]);
 
   return matches;
+}
+
+const scrollTo = (elementId) => {
+    const element = document.getElementById(elementId);
+    if(element){
+        element.scrollIntoView({
+            behavior: "smooth",
+        })
+    }
 }
 
 export default Navbar
